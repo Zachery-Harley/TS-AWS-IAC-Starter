@@ -1,0 +1,11 @@
+global:
+  account_id: '829515710729'
+  region: eu-west-2
+  environment_name: "Dev"
+
+bootstrap:
+  vpc:
+    cidr: 10.0.0.0/16
+    max_azs: 2
+    vpc_name: "Dev-VPC"
+

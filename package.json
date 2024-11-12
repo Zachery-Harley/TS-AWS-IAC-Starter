@@ -1,0 +1,22 @@
+{
+  "name": "cdk",
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/common",
+    "packages/bootstrap",
+    "packages/simple-deployment"
+  ],
+  "scripts": {
+    "build": "npm run build --ws",
+    "test": "npm run test --ws",
+    "lint": "npm run lint --ws"
+  },
+
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.14.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.13.0"
+  }
+}
